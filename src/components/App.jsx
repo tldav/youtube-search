@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import SearchBar from "./SearchBar"
 
 class App extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>Youtube Search App</div>
+            <div className="ui container">
+                <SearchBar/>
+            </div>
         );
     }
 }
