@@ -1,5 +1,5 @@
 import axios from "axios";
-const KEY = "AIzaSyBlN5QYpoPysGfT1E_BuQQLoG0r6XhUVJw";
+const KEY = process.env.REACT_APP_API_KEY;
 
 export default axios.create({
 	baseURL: "https://www.googleapis.com/youtube/v3",
