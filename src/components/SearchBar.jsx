@@ -9,8 +9,6 @@ class SearchBar extends Component {
         this.props.onTermSubmit(this.state.term)
     }
 
-    // https://agitated-khorana-510b64.netlify.app/
-
     render() { 
         return (
             <div className="search-bar ui segment">
