@@ -9,12 +9,14 @@ class SearchBar extends Component {
         this.props.onTermSubmit(this.state.term)
     }
 
+    // https://agitated-khorana-510b64.netlify.app/
+
     render() { 
         return (
             <div className="search-bar ui segment">
                 <form action="" className="ui form" onSubmit={this.onFormSubmit}>
                     <div className="field">
-                        <label htmlFor=""></label>
+                        <label htmlFor="">Search Videos</label>
                         <input type="text" value={this.state.term} onChange={e => this.setState({term: e.target.value})}/>
                     </div>
                 </form>
